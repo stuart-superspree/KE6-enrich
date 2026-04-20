@@ -1,0 +1,3 @@
+# Tell Railway's Nixpacks builder to install Caddy (a tiny, reliable static web server)
+[phases.setup]
+nixPkgs = ["caddy"]
